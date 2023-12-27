@@ -1,0 +1,50 @@
+GET http://localhost:8090/products/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8090/products/5 HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+
+GET http://localhost:8080/brands/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8090/categories/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8090/categories/2/products/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+
+###
+GET http://localhost:8080/stocks/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+
+###
+GET http://localhost:8080/customers/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8080/order_items/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8080/orders/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8080/staffs/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8080/stores/ HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
+###
+GET http://localhost:8080/order_items/total-revenue-store HTTP/1.1
+    'Content-Type': 'application/json',
+    'Accept': 'application/json'
