@@ -34,6 +34,10 @@ export async function createProductsTable(sequelize: Sequelize,
         list_price: {
             type: DataTypes.TEXT,
             allowNull: false
+        },
+        product_img: {
+            type: DataTypes.TEXT,
+            allowNull: false
         }
 
     }, {

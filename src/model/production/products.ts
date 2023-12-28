@@ -5,4 +5,5 @@ export interface Products {
     category_id?: number;
     model_year: Date;
     list_price: number;
+    product_img: string;
 }
